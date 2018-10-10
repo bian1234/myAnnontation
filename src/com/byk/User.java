@@ -55,12 +55,6 @@ public class User {
         this.userSchool = userSchool;
     }
 
-    public void displayName(){
-     System.out.println("学生姓名：刘德华");
-    }
 
-    public static  void main(String[] arg){
-        UserInfoUtil.getUserInfo(User.class);
-    }
 
 }
